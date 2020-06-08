@@ -5,7 +5,7 @@ Algunas de sus características son:
 - Pueden definir cualquier número de parámetros, pero una única expresión. Esta expresión es evaluada y devuelta.
 - Pueden ser usadas en cualquier lugar que la función sea requerida.
 
-###Sintaxis
+### Sintaxis
 La sintaxis para definir una función lambda es la siguiente:
 ~~~
   lambda parámetros: expresión
