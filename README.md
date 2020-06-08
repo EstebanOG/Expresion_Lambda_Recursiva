@@ -11,6 +11,17 @@ La sintaxis para definir una función lambda es la siguiente:
   lambda parámetros: expresión
 ~~~
 
+###Ejemplo
+A continuación se presenta una función sencilla y cómo se podría expresar mediante una función lambda
+~~~
+  #Función sencilla
+  def cuadrado(x)
+    return x**2
+    
+  #Función lambda
+  cuad = lambda x: x**2
+~~~
+
 |Nombre|Código|
 |-----------|-----------|
 |Juan Esteban Olaya García|20171020135|
