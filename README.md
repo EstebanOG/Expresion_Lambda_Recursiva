@@ -29,7 +29,7 @@ Al igual que con las funciones tradicionales, las funciones lambda pueden ser us
   lambda_factorial = lambda i:1 if i==0 else i*lambda_factorial(i-1)
   print(lambda_factorial(5))
 ~~~
-Para usar una función lambda de forma recursiva es necesario que guardemos la expresión lambda en una variable, esto nos permitira luego hacer su llamado de forma recursiva como se ve en el ejemplo. 
+Para usar una función lambda de forma recursiva es necesario que guardemos la expresión lambda en una variable, esto nos permitirá luego hacer su llamado de forma recursiva como se ve en el ejemplo. 
 
 |Nombre|Código|
 |-----------|-----------|
