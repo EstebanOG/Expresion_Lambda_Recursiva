@@ -22,6 +22,15 @@ A continuación, se presenta una función sencilla y cómo se podría expresar m
   cuad = lambda x: x**2
 ~~~
 
+### Función lambda recursiva
+Al igual que con las funciones tradicionales, las funciones lambda pueden ser usadas de manera recursiva, es decir que la función se llame a ella misma. A continuación, un ejemplo:
+~~~
+  #Función lambda recursiva para hallar el factorial de un número
+  lambda_factorial = lambda i:1 if i==0 else i*lambda_factorial(i-1)
+  print(lambda_factorial(5))
+~~~
+Para usar una función lambda de forma recursiva es necesario que guardemos la expresión lambda en una variable, esto nos permitira luego hacer su llamado de forma recursiva como se ve en el ejemplo. 
+
 |Nombre|Código|
 |-----------|-----------|
 |Juan Esteban Olaya García|20171020135|
